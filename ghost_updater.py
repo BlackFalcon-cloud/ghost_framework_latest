@@ -12,7 +12,7 @@ init(autoreset=True)
 # ======================
 # CONFIG
 # ======================
-GITHUB_REPO_ZIP = "https://github.com/BlackFalcon-cloud/Ghost_Framework/archive/refs/heads/main.zip"
+GITHUB_REPO_ZIP = "https://github.com/BlackFalcon-cloud/ghost_framework_latest/archive/refs/heads/main.zip"
 PROJECT_NAME = "Ghost_Framework"
 
 CURRENT_DIR = os.getcwd()
@@ -108,3 +108,4 @@ shutil.rmtree(TEMP_DIR)
 
 print(Fore.CYAN + Style.BRIGHT + "\n[*] Ghost Framework is now up to date.")
 print(Fore.RED + Style.BRIGHT + "[☠] Restart the tool to apply changes.\n")
+
